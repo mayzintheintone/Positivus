@@ -1,0 +1,14 @@
+/* universal selector // * Selects all elements on the page and applies the specified styles to them. */
+* {
+  margin: 0; /* Removes default margin from all elements */
+  padding: 0; /* Removes default padding from all elements */
+  box-sizing: border-box; /* Sets the box-sizing property to border-box for all elements, which includes padding and border in the element's total width and height */
+}
+a {
+  text-decoration: none;
+  color: inherit; /*color reset*/
+}
+ul,
+ol {
+  list-style: none;
+}
