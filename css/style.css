@@ -5,6 +5,12 @@
   --secondary-color: #191a13;
   --gray-color: #f3f3f3;
 }
+/* PC Max Width View */
+.wrapper {
+  max-width: 1240px;
+  margin-inline: auto;
+  padding-block: 60px;
+}
 body {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 400;
@@ -13,4 +19,27 @@ body {
   line-height: 100%;
   letter-spacing: 0;
   color: var(--text-color);
+  padding-inline: 20px;
+}
+/* Header flex Box */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-button {
+  border: 1px solid var(--secondary-color);
+  border-radius: 14px;
+}
+.nav-button {
+  border: 1px solid var(--secondary-color);
+  border-radius: 14px;
+}
+.nav-button a {
+  padding: 20px 35px;
 }
