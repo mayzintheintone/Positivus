@@ -68,3 +68,8 @@ body {
   min-width: 600px;
   gap: 35px;
 }
+.logotypes__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
